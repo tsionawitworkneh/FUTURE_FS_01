@@ -1,0 +1,152 @@
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    width: 100%;
+}
+
+.hero-left {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.socials-col {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5px;
+    padding-top: 1rem;
+}
+
+.socials-col a {
+    width: 50px;
+    height: 40px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text);
+    opacity: 0.7;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.socials-col a:hover {
+    color: var(--primary);
+    background: var(--muted-bg);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.greet {
+    font-size: 2rem;
+    opacity: 0.85;
+    margin-bottom: 0.5rem;
+}
+
+.wave {
+    display: inline-block;
+    animation: wave 2s ease-in-out infinite;
+    transform-origin: 70% 70%;
+}
+
+.hero-title {
+    font-size: clamp(2.25rem, 5vw, 3.75rem);
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 0.75rem;
+}
+
+span{
+    color: var(--primary);
+}
+
+.role {
+    font-size: 1.75rem;
+    color: var(--primary);
+    height: 2.5rem;
+}
+
+.caret {
+    display: inline-block;
+    width: 2px;
+    height: 1.75rem;
+    background: var(--primary);
+    margin-left: 4px;
+    vertical-align: middle;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+.hero-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.blob-wrap {
+    position: relative;
+}
+
+.blob-glow {
+    position: absolute;
+    inset: 0;
+    background: var(--primary);
+    opacity: 0.2;
+    filter: blur(60px);
+    transform: scale(0.9);
+}
+
+.blob {
+    position: relative;
+    width: 320px;
+    height: 380px;
+    border: 4px solid rgba(160, 32, 240, 0.4);
+    overflow: hidden;
+    
+    animation: morph 8s ease-in-out infinite;
+}
+
+.blob img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .socials-col{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .hero-left{
+        flex-direction: column-reverse;
+    }
+
+    .hero-right {
+        justify-content: center;
+    }
+
+    .blob {
+        width: 250px;
+        height: 300px;
+    }
+}
