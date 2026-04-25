@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import About from "./components/About"
 import Skills from "./components/Skills";
 import Certifications from "./components/Certifications";
+import Projects from "./components/Projects";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <About />
       <Skills />
       <Certifications />
+      <Projects />
     </div>
   );
 }
