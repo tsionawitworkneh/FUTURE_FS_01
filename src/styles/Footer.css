@@ -1,0 +1,32 @@
+.footer {
+  padding: 3rem 1.5rem 1.5rem;
+  border-top: 1px solid var(--primary);
+  margin: 5rem 2rem 1rem;
+}
+
+
+
+.footer-bottom {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #777;
+  
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
+  }
+
+  .footer-links,
+  .footer-social {
+    justify-content: flex-start;
+  }
+}
+
+
+.dark .footer {
+  background: #0b0b0b;
+}
