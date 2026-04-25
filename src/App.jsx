@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Certifications from "./components/Certifications";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
+import Contact from "./components/Contact";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <Certifications />
       <Projects />
       <Resume />
+      <Contact />
     </div>
   );
 }
