@@ -5,6 +5,7 @@
     --card: #f8f9fb;
     --muted-bg: #f1f3f7;
     --text: #1a1a2e;
+    --muted-text: #323232;
     --muted: #6b7280;
     --border: #e5e7eb;
     --primary: #a020f0;
@@ -19,6 +20,7 @@
     --muted-bg: #22223a;
     --text: #f5f5f7;
     --muted: #9ca3af;
+    --muted-text: #9ca3af;
     --border: #2a2a3e;
     --primary: #c77dff;
     --primary-glow: #ff6ec4;

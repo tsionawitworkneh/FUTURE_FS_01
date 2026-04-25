@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero"
 import { useEffect, useState } from "react";
+import About from "./components/About"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
       <Navbar theme={theme} setTheme={setTheme} />
       <Hero />
+      <About />
     </div>
   );
 }
