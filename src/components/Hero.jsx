@@ -25,9 +25,9 @@ function Hero() {
       <div className="hero-grid">
         <div className="hero-left animate-fade-in">
           <div className="socials-col">
-            <a href="https://t.me/" aria-label="Telegram"><FaTelegram /></a>
-            <a href="https://github.com" aria-label="GitHub"><FaGithub /></a>
-            <a href="https://linkedin.com" aria-label="LinkedIn"><FaLinkedin /></a>
+            <a href="https://t.me/Zionawit_16" aria-label="Telegram"><FaTelegram /></a>
+            <a href="https://github.com/tsionawitworkneh" aria-label="GitHub"><FaGithub /></a>
+            <a href="https://leetcode.com/u/Tsionawit/" aria-label="LinkedIn"><FaLinkedin /></a>
           </div>
           <div>
             <p className="font-script greet">

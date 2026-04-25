@@ -10,7 +10,7 @@ const projects = [
     tags: ["Python", "C++", "DSA"],
     category: "Computing",
     image: "/projects/competitive.jpg",
-    github: "https://github.com/yourusername/campus-connect",
+    github: "https://github.com/tsionawitworkneh/competitive-programming",
     demo: "#",
   },
   {
@@ -19,7 +19,7 @@ const projects = [
     tags: ["Cisco Packet Tracer", "IP Addressing"],
     category: "Computing",
     image: "/projects/campus-network.jpg",
-    github: "https://github.com/yourusername/library-system",
+    github: "https://github.com/tsionawitworkneh/Computer-Networking-Academic-Project",
     demo: "#",
   },
   {
@@ -28,8 +28,8 @@ const projects = [
     tags: ["HTML%", "CSS", "JavaScript"],
     category: "Web",
     image: "/projects/elegant.jpg",
-    github: "https://github.com/yourusername/portfolio",
-    demo: "https://yourportfolio.com",
+    github: "https://github.com/tsionawitworkneh/Elegant-Wedding-Landing-Page",
+    demo: "https://elegant-wedding-landing-page.vercel.app",
   },
   {
     title: "Risk of AI adoption in Jobs",
@@ -37,7 +37,7 @@ const projects = [
     tags: ["Python", "Data Visualization"],
     category: "Computing",
     image: "/projects/visualization.jpg",
-    github: "https://github.com/yourusername/expense-tracker",
+    github: "https://github.com/tsionawitworkneh/ai-job-analysis",
     demo: "#",
   },
   {
@@ -46,7 +46,7 @@ const projects = [
     tags: ["C#", "SQL Server", ".NET"],
     category: "Desktop",
     image: "/projects/MiniDARMAS.jpg",
-    github: "https://github.com/yourusername/quiz-app",
+    github: "https://github.com/tsionawitworkneh/transcript-management-system-academic-project",
     demo: "#",
   },
   {
@@ -55,7 +55,7 @@ const projects = [
     tags: ["HTML5", "CSS", "JavaScript"],
     category: "Web",
     image: "/projects/samunaber.jpg",
-    github: "https://github.com/yourusername/weather-app",
+    github: "https://github.com/tsionawitworkneh/samunaber-engineering",
     demo: "https://samunaber.netlify.app/",
   },
 ];

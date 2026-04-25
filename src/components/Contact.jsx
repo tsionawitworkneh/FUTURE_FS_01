@@ -41,9 +41,9 @@ function Contact() {
                     <div className="info-item"><FaEnvelope /><a href="mailto:tsionawitw@gmail.com">tsionawitw@gmail.com</a></div>
                     <div className="info-item"><FaMapMarkerAlt /><span>Addis Ababa, Ethiopia</span></div>
                     <div className="socials">
-                        <a href="https://github.com" aria-label="GitHub"><FaGithub /></a>
-                        <a href="https://linkedin.com" aria-label="LinkedIn"><FaLinkedin /></a>
-                        <a href="https://t.me/" aria-label="Telegram"><FaTelegram /></a>
+                        <a href="https://github.com/tsionawitworkneh" aria-label="GitHub"><FaGithub /></a>
+                        <a href="https://leetcode.com/u/Tsionawit/" aria-label="LinkedIn"><FaLinkedin /></a>
+                        <a href="https://t.me/Zionawit_16" aria-label="Telegram"><FaTelegram /></a>
                     </div>
                 </div>
                 <form onSubmit={handleSubmit} className="contact-form">
