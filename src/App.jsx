@@ -3,6 +3,7 @@ import Hero from "./components/Hero"
 import { useEffect, useState } from "react";
 import About from "./components/About"
 import Skills from "./components/Skills";
+import Certifications from "./components/Certifications";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Hero />
       <About />
       <Skills />
+      <Certifications />
     </div>
   );
 }
